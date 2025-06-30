@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "tuananh",
+      "email": "tuananh@example.com",
+      "password": "12345678",
+      "fullName": "Đỗ Tuấn Anh",
+      "phone": "0123456789",
+      "address": "Hà Nội",
+      "role": "user",
+      "avatar": "/images/avatars/1.png",
+      "createdAt": "2024-06-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "username": "nguyenvanb",
+      "email": "nguyenvanb@example.com",
+      "password": "12345678",
+      "fullName": "Nguyễn Văn B",
+      "phone": "0987654321",
+      "address": "TP.HCM",
+      "role": "user",
+      "avatar": "/images/avatars/2.png",
+      "createdAt": "2024-06-01T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "fullName": "Quản Trị Viên",
+      "phone": "0909090909",
+      "address": "Hà Nội",
+      "role": "admin",
+      "avatar": "/images/avatars/admin.png",
+      "createdAt": "2024-06-01T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "username": "lethic",
+      "email": "lethic@example.com",
+      "password": "abc12345",
+      "fullName": "Lê Thị C",
+      "phone": "0345678910",
+      "address": "Đà Nẵng",
+      "role": "user",
+      "avatar": "/images/avatars/4.png",
+      "createdAt": "2024-06-01T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "username": "phamthid",
+      "email": "phamthid@example.com",
+      "password": "987654321",
+      "fullName": "Phạm Thị D",
+      "phone": "0321456789",
+      "address": "Cần Thơ",
+      "role": "user",
+      "avatar": "/images/avatars/5.png",
+      "createdAt": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "username": "tranquange",
+      "email": "tranquange@example.com",
+      "password": "mypassword",
+      "fullName": "Trần Quang E",
+      "phone": "0398765432",
+      "address": "Hải Phòng",
+      "role": "user",
+      "avatar": "/images/avatars/6.png",
+      "createdAt": "2024-06-01T13:00:00Z"
+    },
+    {
+      "id": 7,
+      "username": "doanthif",
+      "email": "doanthif@example.com",
+      "password": "abcdefg",
+      "fullName": "Doãn Thị F",
+      "phone": "0356789123",
+      "address": "Nghệ An",
+      "role": "user",
+      "avatar": "/images/avatars/7.png",
+      "createdAt": "2024-06-01T14:00:00Z"
+    },
+    {
+      "id": 8,
+      "username": "buihuyg",
+      "email": "buihuyg@example.com",
+      "password": "huy123",
+      "fullName": "Bùi Huy G",
+      "phone": "0377777777",
+      "address": "Lâm Đồng",
+      "role": "user",
+      "avatar": "/images/avatars/8.png",
+      "createdAt": "2024-06-01T15:00:00Z"
+    },
+    {
+      "id": 9,
+      "username": "ngothih",
+      "email": "ngothih@example.com",
+      "password": "abcabc",
+      "fullName": "Ngô Thị H",
+      "phone": "0388888888",
+      "address": "Thái Bình",
+      "role": "user",
+      "avatar": "/images/avatars/9.png",
+      "createdAt": "2024-06-01T16:00:00Z"
+    },
+    {
+      "id": 10,
+      "username": "nguyenti",
+      "email": "nguyenti@example.com",
+      "password": "123123",
+      "fullName": "Nguyễn T I",
+      "phone": "0399999999",
+      "address": "Vĩnh Long",
+      "role": "user",
+      "avatar": "/images/avatars/10.png",
+      "createdAt": "2024-06-01T17:00:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Air Force 1",
+      "brand": "Nike",
+      "price": 2500000,
+      "size": [38, 39, 40, 41, 42],
+      "color": "White",
+      "description": "Giày Nike cổ điển.",
+      "image": "/images/products/1.jpg",
+      "category": "sneakers",
+      "stock": 10,
+      "rating": 4.5,
+      "sold": 150
+    },
+    {
+      "id": 2,
+      "name": "Adidas Ultraboost",
+      "brand": "Adidas",
+      "price": 3000000,
+      "size": [40, 41, 42],
+      "color": "Black",
+      "description": "Giày chạy bộ êm ái.",
+      "image": "/images/products/2.jpg",
+      "category": "running",
+      "stock": 15,
+      "rating": 4.7,
+      "sold": 220
+    },
+    {
+      "id": 3,
+      "name": "Converse Chuck Taylor",
+      "brand": "Converse",
+      "price": 1800000,
+      "size": [38, 39, 40, 41],
+      "color": "Red",
+      "description": "Giày vải cổ điển.",
+      "image": "/images/products/3.jpg",
+      "category": "casual",
+      "stock": 8,
+      "rating": 4.2,
+      "sold": 95
+    },
+    {
+      "id": 4,
+      "name": "Vans Old Skool",
+      "brand": "Vans",
+      "price": 1900000,
+      "size": [37, 38, 39, 40],
+      "color": "Black/White",
+      "description": "Giày skate thời trang.",
+      "image": "/images/products/4.jpg",
+      "category": "skate",
+      "stock": 12,
+      "rating": 4.4,
+      "sold": 130
+    },
+    {
+      "id": 5,
+      "name": "Nike Air Max 97",
+      "brand": "Nike",
+      "price": 3500000,
+      "size": [40, 41, 42, 43],
+      "color": "Silver",
+      "description": "Thiết kế tương lai.",
+      "image": "/images/products/5.jpg",
+      "category": "sneakers",
+      "stock": 9,
+      "rating": 4.6,
+      "sold": 75
+    },
+    {
+      "id": 6,
+      "name": "Adidas NMD R1",
+      "brand": "Adidas",
+      "price": 2900000,
+      "size": [39, 40, 41],
+      "color": "Grey",
+      "description": "Hiện đại và năng động.",
+      "image": "/images/products/6.jpg",
+      "category": "running",
+      "stock": 7,
+      "rating": 4.3,
+      "sold": 80
+    },
+    {
+      "id": 7,
+      "name": "Puma RS-X",
+      "brand": "Puma",
+      "price": 2700000,
+      "size": [40, 41, 42],
+      "color": "Multi-color",
+      "description": "Cá tính, thể thao.",
+      "image": "/images/products/7.jpg",
+      "category": "fashion",
+      "stock": 6,
+      "rating": 4.1,
+      "sold": 60
+    },
+    {
+      "id": 8,
+      "name": "Balenciaga Triple S",
+      "brand": "Balenciaga",
+      "price": 15000000,
+      "size": [41, 42, 43],
+      "color": "Beige",
+      "description": "Luxury sneaker.",
+      "image": "/images/products/8.jpg",
+      "category": "luxury",
+      "stock": 4,
+      "rating": 4.8,
+      "sold": 20
+    },
+    {
+      "id": 9,
+      "name": "Reebok Classic",
+      "brand": "Reebok",
+      "price": 1700000,
+      "size": [38, 39, 40],
+      "color": "White",
+      "description": "Giày retro phong cách.",
+      "image": "/images/products/9.jpg",
+      "category": "classic",
+      "stock": 10,
+      "rating": 4.0,
+      "sold": 55
+    },
+    {
+      "id": 10,
+      "name": "New Balance 574",
+      "brand": "New Balance",
+      "price": 2200000,
+      "size": [40, 41, 42],
+      "color": "Navy",
+      "description": "Đệm êm, chạy thoải mái.",
+      "image": "/images/products/10.jpg",
+      "category": "running",
+      "stock": 13,
+      "rating": 4.5,
+      "sold": 85
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        { "productId": 2, "quantity": 1, "size": 42 },
+        { "productId": 5, "quantity": 1, "size": 41 }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "items": [
+        { "productId": 1, "quantity": 2, "size": 40 }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        { "productId": 2, "quantity": 1, "size": 42 }
+      ],
+      "total": 3000000,
+      "status": "completed",
+      "createdAt": "2024-06-28T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "items": [
+        { "productId": 1, "quantity": 2, "size": 40 }
+      ],
+      "total": 5000000,
+      "status": "pending",
+      "createdAt": "2024-06-29T15:00:00Z"
+    }
+  ],
+  "passwordResetRequests": [
+    {
+      "id": 1,
+      "email": "tuananh@example.com",
+      "token": "reset123",
+      "expiresAt": "2024-07-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "email": "nguyenvanb@example.com",
+      "token": "tokenabc",
+      "expiresAt": "2024-07-02T00:00:00Z"
+    }
+  ]
+}
